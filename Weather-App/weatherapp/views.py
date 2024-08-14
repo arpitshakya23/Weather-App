@@ -11,12 +11,12 @@ def home(request):
         city = 'kanpur'
     
     # Weather API
-    weather_url = f'https://api.openweathermap.org/data/2.5/weather?q={city}&appid=d81e278eb19122b81b90f62a5f5cfad8'
+    weather_url = f'https://api.openweathermap.org/data/2.5/weather?q={city}&appid= '
     PARAMS = {'units': 'metric'}
 
     # Google Custom Search API
-    API_KEY = 'AIzaSyA5xayWZ1RIcT2zxoNxTDHZ4KyVlVt6HW4'
-    SEARCH_ENGINE_ID = 'a5d263850e1304083'
+    API_KEY = ''
+    SEARCH_ENGINE_ID = ''
     query = city + " 1920x1080"
     page = 1
     start = (page - 1) * 10 + 1
